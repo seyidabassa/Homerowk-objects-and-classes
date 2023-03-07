@@ -10,8 +10,9 @@ namespace Objects_and_Classes
 
             int numberOfStudents;
         label1:
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Please enter the number of students");
+            Console.ForegroundColor = ConsoleColor.White;
             if (!int.TryParse(Console.ReadLine(), out numberOfStudents) || numberOfStudents <= 0)
             {
                 goto label1;
@@ -34,7 +35,7 @@ namespace Objects_and_Classes
                 Console.ForegroundColor= ConsoleColor.Green;
                 for (int i2 = 0; i2 < numberOfStudents; i2++)
                 {
-                    Console.WriteLine($"{i2+1} {individual[i2]} ");
+                    Console.WriteLine($"{individual[i2]}");
                 }
             Console.ForegroundColor = ConsoleColor.White;
 

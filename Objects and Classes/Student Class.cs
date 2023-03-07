@@ -17,8 +17,9 @@ namespace Objects_and_Classes
 
         public override string ToString()
         {
-            return $"Student name is:{name} \nStudent Surname is:{surname} \nStudent age is:{age}\nStudent speciality is:{speciality}\nStudent group is:{groupNo}\n";
-
+            Console.ForegroundColor = ConsoleColor.Blue;
+            return $"Student name is:{name} \nStudent Surname is:{surname} \nStudent age is:{age}\nStudent speciality is:{speciality}\nStudent group is:{groupNo}\n=====================";
+            Console.ForegroundColor = ConsoleColor.White;
 
         }
         // 
