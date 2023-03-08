@@ -34,7 +34,7 @@ namespace Objects_and_Classes
                //student.age = int.Parse(Console.ReadInt()); // use tryparse later and write in your notepad 
                 if (!int.TryParse(valueStr, out value))
                 {
-             
+                
                 Console.WriteLine($"{valueStr} is not correct");
                     goto l2;
                 }
