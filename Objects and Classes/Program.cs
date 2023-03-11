@@ -55,7 +55,7 @@ namespace Objects_and_Classes
             //individual[0].surname = "Smith";
             //individual[0].age = 20;
             //individual[0].speciality = "Engineering";
-            //individual[0].groupNo = 710;
+            //individual[0].groupNo = 710;///
 
 
             //// second style object creation
