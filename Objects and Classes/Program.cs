@@ -7,7 +7,6 @@ namespace Objects_and_Classes
     {
         static void Main(string[] args)
         {
-
             int numberOfStudents;
         label1:
             Console.ForegroundColor = ConsoleColor.Green;
